@@ -1,6 +1,3 @@
-import { Card, CardHeader, Image, Divider, CardBody } from "@nextui-org/react";
-
-import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import CoverLetter from "@/components/cover-letter";
 import EventVenue from "@/components/event-venue";
