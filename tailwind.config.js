@@ -10,7 +10,12 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'imperial': ['Imperial Script'],
+        'rouge': ['Rouge Script']
+      }
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
